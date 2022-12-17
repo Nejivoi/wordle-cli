@@ -1,11 +1,10 @@
 {
   "name": "vid001",
   "version": "1.0.0",
-  "description": "",
+  "description": "Play wordle in your cli.",
   "main": "bin/bundle.js",
   "scripts": {
     "start": "npm run build && node dist/bundle.js",
-    "introduce": "node dist/bundle.js introduce",
     "build": "webpack",
     "test": "npm run build && npm i -g . && wordle"
   },
